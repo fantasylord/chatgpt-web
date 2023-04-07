@@ -48,7 +48,7 @@ func LoadConfig() *Configuration {
 		config = &Configuration{
 			MaxTokens:        60,
 			ApiURL:           "",
-			Port:             8080,
+			Port:             8081,
 			Listen:           "",
 			Model:            "gpt-3.5-turbo-0301",
 			Temperature:      0.9,
