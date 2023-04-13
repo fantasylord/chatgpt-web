@@ -14,7 +14,7 @@ func StartWebServer() {
 	SetUpRoute()
 	SetupDB()
 	initTemplateDir()
-	initStaticServer()
+	// initStaticServer()
 
 	// 启动服务
 	port := config.LoadConfig().Port

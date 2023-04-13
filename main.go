@@ -15,6 +15,5 @@ func main() {
 
 func startFe() {
 	cmd := exec.Command("cd chat-new && npm run dev")
-
 	cmd.Run()
 }
